@@ -1,0 +1,15 @@
+{
+    "name": "dariocastellano/alexa-skills",
+    "description": "Miscellaneous Alexa skills repository",
+    "type": "project",
+    "require": {
+        "awsmug/alexa-php-sdk": "dev-master"
+    },
+    "license": "MIT License",
+    "authors": [
+        {
+            "name": "Dario Castellano",
+            "email": "dariocastellano18@gmail.com"
+        }
+    ]
+}

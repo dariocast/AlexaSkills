@@ -1,0 +1,54 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "554fc05195eead3d3743d73619e5417d",
+    "packages": [
+        {
+            "name": "awsmug/alexa-php-sdk",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/awsmug/alexa-sdk.git",
+                "reference": "4a05c473d5418ca856413e7c354a9346f89037b4"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/awsmug/alexa-sdk/zipball/4a05c473d5418ca856413e7c354a9346f89037b4",
+                "reference": "4a05c473d5418ca856413e7c354a9346f89037b4",
+                "shasum": ""
+            },
+            "require-dev": {
+                "codeclimate/php-test-reporter": "^0.4.4",
+                "phpunit/phpunit": "^6.5"
+            },
+            "type": "library",
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL-3.0"
+            ],
+            "authors": [
+                {
+                    "name": "Sven Wagener",
+                    "email": "contact@awesome.ug",
+                    "homepage": "http://www.awesome.ug",
+                    "role": "Lead Developer"
+                }
+            ],
+            "description": "Amazon Echo (Alexa) PHP SDK",
+            "time": "2019-01-16T08:59:46+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": {
+        "awsmug/alexa-php-sdk": 20
+    },
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": []
+}
