@@ -1,0 +1,67 @@
+{
+    "interactionModel": {
+        "languageModel": {
+            "invocationName": "avvia gaetano",
+            "intents": [
+                {
+                    "name": "DiDoveSeiIntent",
+                    "slots": [
+                        {
+                            "name": "dove",
+                            "type": "Avverbio"
+                        }
+                    ],
+                    "samples": [
+                        "da {dove} vieni",
+                        "di {dove} sei"
+                    ]
+                },
+                {
+                    "name": "NomeIntent",
+                    "slots": [
+                        {
+                            "name": "come",
+                            "type": "Avverbio"
+                        }
+                    ],
+                    "samples": [
+                        "{come} mi chiamo"
+                    ]
+                },
+                {
+                    "name": "AMAZON.CancelIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.HelpIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.StopIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.NavigateHomeIntent",
+                    "samples": []
+                }
+            ],
+            "types": [
+                {
+                    "name": "Avverbio",
+                    "values": [
+                        {
+                            "name": {
+                                "value": "dove"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "come"
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    }
+}
