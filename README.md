@@ -7,8 +7,6 @@ repository of misc alexa skill
 ## Init
 Clone and launch `php composer.phar update` to install dependencies. \
 If nedded, add specific dependency to `composer.json` into `require` block
-
-#Skills
-
-##GaetanoSkill
+## Skills
+### GaetanoSkill
 This Skill turn ALexa in your "Napolitan Assistant"
